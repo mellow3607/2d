@@ -1,0 +1,53 @@
+* 다중대입
+turtle.goto(*pos) // * 적는이유 : goto 는 x,y 두개의 인자를 받는 함수이기 때문에 pos가 두개의 인자라는 것을 표시
+
+Radian : 0 ~ 2pi
+- 대부분의 그래픽/ 수학시스템에서는 Radian 을 씀 
+- python math module 
+
+Degree : 0 ~ 360
+- 일상생활에서는 degree를 씀
+- python turtle graphics
+
+rad = pi * deg / 180
+
+for i in [1,3,4] // -> 1,3,4 순서대로 하나하나 대입하고 출력 반복
+for i in range(1,10+1) // 괄호안에 있는거까지 반복, 10+1 식으로 쓰는게 더 좋음
+
+
+* 파이썬의 함수
+1. 함수를 만드는 이유
+1) 코드 중복을 피하기 위해
+2) 동작을 추상화하기 // 복잡한 코드를 단어 몇개로 줄여 읽기 좋게 하기 우해
+
+def// 파이썬 함수 정의 키워드
+c언어 - ()괄호를 이용해 함수인식
+
+- 함수 호출시 함수정의가 먼저 되어 있어야 함
+- 파이썬은 여러개의 return 값 가능 ( 튜플이 있기 때문에 )
+ex) return a+b, a*b
+
+- Late ( dynamic, runtime )binding // python, javascript 
+- Early( static, compile-time ) binding // c, c++
+
+- OOP // 옛날
+- Functional // 최근 문법 
+ㄴ 코드도 객체로 취급
+turtle.onkey(move,'w') // - w키를 누르면 move함수를 객체처럼 인자로 받을 수 있음, onkey는 등록하는 함수 
+turtle.listen () 거북이가 키 입력을 들을 수 있게함
+
+* unicode
+60000자로 전세계 글자에 포함해보자.
+
+잘만든 프로그램 : 요구사항 변경에 쉽게 대응할 수 있는 프로그램 
+
+* recursive call
+
+* fractal graphics
+* bezier 모듈 
+ㄴ 좌표를 계산해주는 라이브러리 
+
+
+
+
+
